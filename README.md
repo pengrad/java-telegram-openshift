@@ -1,3 +1,12 @@
-The OpenShift `diy` cartridge documentation can be found at:
+### Template to deploy [Telegram Bots](https://core.telegram.org/bots/) on [OpenShift](https://www.openshift.com) platform
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#diy
+To get started we need to install client tools and set up machine  
+https://developers.openshift.com/en/getting-started-osx.html
+
+#### Create app on OpenShift
+- Create app from web UI  
+https://openshift.redhat.com/app/console/application_type/cart!diy-0.1  
+`Source code` must be filled with `https://github.com/pengrad/java-telegram-openshift` and `master`
+
+- Create app from console  
+`rhc app create MyTestApp diy-0.1 --from-code https://github.com/pengrad/java-telegram-openshift`
