@@ -1,4 +1,4 @@
-### Template to deploy [Telegram Bots](https://core.telegram.org/bots/) on [OpenShift](https://www.openshift.com) platform
+## Template to deploy [Telegram Bots](https://core.telegram.org/bots/) on [OpenShift](https://www.openshift.com) platform with [java-telegram-bot-api](https://github.com/pengrad/java-telegram-bot-api)
 
 To get started we need to install client tools and set up machine  
 https://developers.openshift.com/en/getting-started-osx.html
